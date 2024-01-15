@@ -1,0 +1,142 @@
+html, body, p, h1 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(back.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: antiquewhite;
+  
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head .logo {
+    font-weight: bold;
+    font-size: 45px;
+    font-style: italic;
+}
+.head .menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 35px;
+}
+.head .menu ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.head .menu ul li a:hover {
+    font-size: 24px;
+    border: 1px solid antiquewhite;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background-color: tan;
+}
+.head .search {
+    display: flex;
+    gap: 30px;
+    margin: 0 20px;
+}
+.head .search .search {
+    background-color:rgba(250, 235, 215, 0.613);
+    border: 1px solid tan;
+    border-radius: 40px;
+    padding: 10px 20px;
+    width: 340px;
+}
+.head .search .search:focus {
+    outline: none;
+}
+.head .search .login {
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 40px;
+    border: 1px solid antiquewhite;
+    font-weight: bold;
+    font-size: 18px;
+}
+main {
+    display: flex;
+    align-items: center;
+}
+main .left img {
+    width: 450px;
+    height: 600px;
+   
+}
+main .right {
+    width: 470px;
+   
+}
+main .right .head {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+main .right .head h1 {
+    font-size: 60px;
+}
+main .right .head p {
+    font-size: 20px;
+}
+main .right .button {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+main .right .button .first {
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border-radius: 40px;
+    border: 1px solid antiquewhite;
+    width: 150px;
+
+}
+main .right .button .second {
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: rgba(210, 180, 140, 0.812);
+    border: 1px solid tan;
+    width: 150px;
+}
+.foot {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.foot .one {
+    background-color: rgba(210, 180, 140, 0.782);
+    border-radius: 40px;
+    box-shadow: 3px 4px 7px tan;
+    width: 250px;
+    display: flex;
+
+}
+.foot .one .img img {
+    width: 100px;
+    height: 150px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.foot .one .price h3 {
+    font-size: 25px;
+}
+.foot .one .price p {
+    font-size: 18px;
+}
